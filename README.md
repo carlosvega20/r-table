@@ -4,7 +4,7 @@ ReactJS Table Component
 Create HTML Table from a list of key and value objects
 
 ##Demo
-
+http://r-table.surge.sh/
 
 
 /*
