@@ -6,22 +6,11 @@ Create HTML Table from a list of key and value objects
 ##Demo
 http://r-table.surge.sh/
 
-
-/*
 Ex:
 [{a:1,b:2,c:3}, {a:1,b:2,c:3,d:4}, {a:1,b:2,c:3}]
 
 output:
-_________________
-| a | b | c | d |
------------------
-| 1 | 2 | 3 |   |
------------------
-| 1 | 2 | 3 | 4 |
------------------
-| 1 | 2 | 3 |   |
------------------
-*/
+(https://github.com/carlosvega20/r-table/raw/master/public/table.png)
 
 ##Get Started
 1. `npm start`
