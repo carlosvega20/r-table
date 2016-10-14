@@ -5,7 +5,9 @@ Create HTML Table from a list of key and value objects
 
 ##Demo
 http://r-table.surge.sh/
+
 Ex:
+
 `[
 {'Fruit': 'Mango', 'Calories': 201, 'Protein': '2.8g'},
 {'Fruit': 'Apple', 'Calories': 95, 'Protein': '0.5g'},
@@ -13,8 +15,7 @@ Ex:
 ]`
 
 output:
-![Table]
-(https://github.com/carlosvega20/r-table/raw/master/public/table.png =220x)
+<img src="https://github.com/carlosvega20/r-table/raw/master/public/table.png" width="220">
 
 ##Get Started
 1. `npm start`
