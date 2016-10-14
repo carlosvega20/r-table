@@ -1,4 +1,5 @@
 # r-table
+[![npm package](https://img.shields.io/badge/npm-0.2.0-brightgreen.svg)](https://www.npmjs.com/package/r-table)
 
 ReactJS Table Component
 Create HTML Table from a list of key and value objects
