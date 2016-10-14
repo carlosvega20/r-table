@@ -15,7 +15,8 @@ Ex:
 ]`
 
 output:
-<img src="https://github.com/carlosvega20/r-table/raw/master/public/table.png" width="220">
+
+<a href="http://r-table.surge.sh/"><img src="https://github.com/carlosvega20/r-table/raw/master/public/table.png" width="220"></a>
 
 ##Get Started
 1. `npm start`
