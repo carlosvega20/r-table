@@ -29,3 +29,4 @@ TODO
 1. Remove demo files from src
 2. Create demo folder and ignored in npm
 3. Add index.js to src
+4. Make sample even more simple, get rid of images and styles
