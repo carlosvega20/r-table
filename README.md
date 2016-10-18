@@ -15,13 +15,13 @@ npm install r-table
 
 then in your code:
 
-`import Table from "r-table"
+`import Table from "r-table"`
 
-<Table data={[
-    {'a': 1, 'b': 2, 'c': 3},
-    {'a': 4, 'b': 5, 'c': 6},
-    {'a': 7, 'b': 8}
-]} />`
+`<Table data={[`
+ `   {'a': 1, 'b': 2, 'c': 3},`
+  `  {'a': 4, 'b': 5, 'c': 6},`
+  `  {'a': 7, 'b': 8}`
+`]} />`
 
 ##TODO
 1. Unit test
