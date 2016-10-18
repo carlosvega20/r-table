@@ -1,6 +1,6 @@
 {
   "name": "r-table",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "author": "Carlos Andres Vega Cortes",
   "homepage": "https://github.com/carlosvega20/r-table",
   "keywords": [
@@ -9,25 +9,36 @@
     "table"
   ],
   "license": "MIT",
-  "main": "src/Table.js",
+  "main": "lib/Table.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/carlosvega20/r-table.git"
   },
+  "files": [
+    "lib"
+  ],
   "devDependencies": {
     "flow-bin": "^0.33.0",
+    "babel-cli": "^6.7.7",
     "react-scripts": "0.6.1"
   },
   "dependencies": {
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
-    "lodash": "^4.16.3"
+    "lodash": "^4.16.3",
+    "babel-preset-react-app": "^0.2.1"
+  },
+  "babel": {
+    "presets": [
+      "react-app"
+    ]
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "flow": "flow; test $? -eq 0 -o $? -eq 2"
+    "flow": "flow; test $? -eq 0 -o $? -eq 2",
+    "build:lib": "NODE_ENV=production babel src --out-dir lib --ignore App.js,test.js,index.js"
   }
 }

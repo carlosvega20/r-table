@@ -1,5 +1,5 @@
 # r-table
-[![npm package](https://img.shields.io/badge/npm-0.2.0-brightgreen.svg)](https://www.npmjs.com/package/r-table)
+[![npm package](https://img.shields.io/badge/npm-0.3.0-brightgreen.svg)](https://www.npmjs.com/package/r-table)
 
 ReactJS Table Component
 Create HTML Table from a list of key and value objects
@@ -10,14 +10,17 @@ http://r-table.surge.sh/
 Ex:
 
 `[
-{'Fruit': 'Mango', 'Calories': 201, 'Protein': '2.8g'},
-{'Fruit': 'Apple', 'Calories': 95, 'Protein': '0.5g'},
-{'Fruit': 'Orange', 'Calories': 45, 'Protein': '0.9g'}
+	{'a': 1, 'b': 2, 'c': 3},
+  {'a': 4, 'b': 5, 'c': 6},
+  {'a': 7, 'b': 8}
 ]`
 
 output:
-
-<a href="http://r-table.surge.sh/"><img src="https://github.com/carlosvega20/r-table/raw/master/public/table.png" width="220"></a>
+| a | b | c |
+|---|---|---|
+| 1 | 2 | 3 |
+| 4 | 5 | 6 |
+| 7 | 8 |   |
 
 ##Get Started
 1. `npm start`
@@ -26,7 +29,4 @@ output:
 TODO
 
 ##TODO
-1. Remove demo files from src
-2. Create demo folder and ignored in npm
-3. Add index.js to src
-4. Make sample even more simple, get rid of images and styles
+1. Unit test
