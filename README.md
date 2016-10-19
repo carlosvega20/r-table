@@ -23,5 +23,7 @@ then in your code:
   `  {'a': 7, 'b': 8}`
 `]} />`
 
+<table><thead><tr><th>a</th><th>b</th><th>c</th></tr></thead><tbody><tr><td>1</td><td>2</td><td>3</td></tr><tr><td>4</td><td>5</td><td>6</td></tr><tr><td>7</td><td>8</td></tr></tbody></table>
+
 ##TODO
 1. Unit test
